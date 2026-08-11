@@ -1,30 +1,223 @@
-# ⚽ ACLE 2026 --- How Busy Is a Tournament Schedule?
+# ⚽ ACLE 2026 --- When a Football Plan Became a Data Project
 
-> **I planned a holiday, thought I might catch some football, got the
-> timing wrong... and somehow ended up with a data project.** 😂
+> **I booked a Bangkok holiday, football in the region was disrupted,
+> and I thought: "What if ACLE has to change its plan?"**
 
-The original plan was simple:
+That's how this project started.
 
-**Holiday in Bangkok + maybe watch some ACLE football = nice bonus.**
+Not from work.
 
-Then I checked properly.
+Not from school.
 
-Wrong city.
+I just wanted to watch some football. 😂
 
-Different tournament setup.
+------------------------------------------------------------------------
 
-And my arrival was **one day after the final**.
+## ✈️ The Original Idea
 
-So:
+My main plan was simple:
 
-**Holiday:** ✅ Still happening\
-**Football:** ❌ Timing fail
+**Bangkok holiday: April 26 -- May 1.**
 
-But the mistake gave me a better question:
+Football was only supposed to be a bonus.
 
-> ## **When many matches are played across only a few stadiums, how busy does each stadium become?**
+But with the war involving Iran disrupting football in the region,
+matches had been postponed and the calendar was getting tighter with the
+World Cup approaching.
 
-That's what this project explores.
+That made me wonder:
+
+> **Could ACLE change its format, dates or location?**
+
+Since I was already going to Bangkok, my brain naturally went:
+
+> **"Eh... what if they move it there?"** 😂
+
+So I built a simple **Bangkok what-if model**.
+
+------------------------------------------------------------------------
+
+## 🇹🇭 My Guess vs Reality 🇸🇦
+
+My Bangkok idea was never an official prediction.
+
+It was a question:
+
+> **If the tournament had to change, what could another setup look
+> like?**
+
+Then reality arrived.
+
+The remaining plan stayed centred in **Jeddah, Saudi Arabia**, with a
+different setup from what I had imagined.
+
+And then came the best part.
+
+**Final: April 25**
+
+**My arrival: April 26**
+
+I missed it by **one day**. 😂
+
+So the final score was:
+
+**Holiday:** ✅ Success\
+**Football bonus:** ❌ Failed\
+**Unexpected data project:** ✅ Unlocked
+
+------------------------------------------------------------------------
+
+## 🤔 The New Question
+
+Instead of deleting my failed idea, I decided to compare it with what
+actually happened.
+
+That created a much better question:
+
+> ## **How does the number of matches, stadiums and days affect how packed a tournament schedule becomes?**
+
+Now I had two things to compare:
+
+**🇹🇭 Bangkok** --- my what-if model
+
+**🇸🇦 Jeddah** --- the actual plan
+
+The goal isn't to prove that my idea was better.
+
+**The goal is to see what the numbers say.**
+
+------------------------------------------------------------------------
+
+## 📊 What Can I Compare?
+
+**⚽ Matches**\
+How many games are played?
+
+**🏟️ Stadiums**\
+How many venues share those games?
+
+**📅 Days**\
+How much time is available?
+
+**⏱️ Time Between Games**\
+How long before the same stadium is used again?
+
+**📍 Matches Per Stadium**\
+Which venue carries the biggest load?
+
+These simple numbers can show whether one schedule is more packed than
+another.
+
+------------------------------------------------------------------------
+
+## 🔍 What Am I Trying to Find Out?
+
+The analysis can answer questions like:
+
+**Which stadium hosts the most matches?**
+
+**How evenly are the games shared?**
+
+**How much time is there between matches at the same stadium?**
+
+**Would using more stadiums spread the schedule better?**
+
+**Which setup is more tightly packed?**
+
+And if reliable pitch-condition data is available:
+
+> **Does a busier schedule appear to affect the pitch?**
+
+A busy stadium doesn't automatically mean the grass will be destroyed.
+
+**That needs evidence too.**
+
+------------------------------------------------------------------------
+
+## 🧮 What About My Old "61% Busier" Result?
+
+My first calculation suggested the Jeddah setup was around **61%
+busier**.
+
+But I'm not keeping that number just because I calculated it once.
+
+First I need to define:
+
+> **What does "busier" actually mean?**
+
+Matches per stadium?
+
+Matches per day?
+
+Time between games?
+
+A combination?
+
+Then I calculate it again.
+
+If the answer is **61%**, keep it.
+
+If it's something else, change it.
+
+If my first calculation was wrong...
+
+**also good.**
+
+Finding out you're wrong is still part of analysing something properly.
+
+------------------------------------------------------------------------
+
+## 🛠️ The Simple Process
+
+**Make a Guess**
+
+↓
+
+**Build the Bangkok Model**
+
+↓
+
+**Reality Changes**
+
+↓
+
+**Get the Jeddah Schedule**
+
+↓
+
+**Compare Both**
+
+↓
+
+**Check My Old Calculation**
+
+↓
+
+**See What the Numbers Actually Say**
+
+That's the project.
+
+------------------------------------------------------------------------
+
+# 🧠 What This Project Is Really About
+
+At first, this was about trying to catch a football match during my
+holiday.
+
+That failed spectacularly by **24 hours**. 😂
+
+But the mistake became more interesting than the original plan.
+
+I made an assumption.
+
+Then new information arrived.
+
+Instead of forcing reality to fit my assumption, I changed the question
+and checked the data.
+
+> ## **I guessed. Reality corrected me. Data helps explain why.**
+
+That's the real point of **ACLE 2026**.
 
 ------------------------------------------------------------------------
 
@@ -32,210 +225,23 @@ That's what this project explores.
 
 ------------------------------------------------------------------------
 
-## 🤔 What Am I Looking At?
-
-A football tournament has a limited number of:
-
-**Matches.**
-
-**Stadiums.**
-
-**Days.**
-
-Put many matches into fewer stadiums and the schedule becomes more
-packed.
-
-Spread them across more stadiums and the workload may be shared more
-evenly.
-
-Simple idea.
-
-But instead of guessing which plan is better:
-
-> **Let's check the numbers.**
-
-------------------------------------------------------------------------
-
-## 📊 What Can We Compare?
-
-For each tournament plan, we can look at:
-
-**⚽ Matches**\
-How many games are played?
-
-**🏟️ Stadiums**\
-How many venues are being used?
-
-**📅 Days**\
-How many days does the tournament have?
-
-**⏱️ Time Between Matches**\
-How much time passes before the same stadium is used again?
-
-**📍 Matches Per Stadium**\
-How many games does each venue host?
-
-These numbers help us see how tightly the tournament is packed.
-
-------------------------------------------------------------------------
-
-## 🔍 What Can We Analyse?
-
-The project can ask:
-
-**Which stadium hosts the most matches?**
-
-**How evenly are matches shared between stadiums?**
-
-**How much time is there between games at the same venue?**
-
-**Does using more stadiums spread the schedule better?**
-
-**Which plan puts more matches into a shorter period?**
-
-And if suitable pitch-condition data is available:
-
-> **Is a busier match schedule linked to changes in pitch condition?**
-
-That's important.
-
-A busy schedule alone does **not** prove that a pitch will be ruined.
-
-The data has to support that conclusion.
-
-------------------------------------------------------------------------
-
-## 🆚 Bangkok Idea vs Actual Plan
-
-My original idea imagined a different tournament setup in Bangkok.
-
-The actual tournament plan was different.
-
-Instead of saying:
-
-> **"My plan is better."**
-
-This project asks:
-
-> **"What actually changes when we compare the two schedules?"**
-
-Maybe one plan is more packed.
-
-Maybe matches are spread differently.
-
-Maybe the difference isn't as big as expected.
-
-**Let the numbers decide.**
-
-------------------------------------------------------------------------
-
-## 🧮 About the "61%" Number
-
-My earlier version described the Jeddah schedule as **61% busier**.
-
-For this project, that number should not be treated as a fact just
-because it appeared in an earlier calculation.
-
-It needs to be clearly defined and checked.
-
-For example:
-
-**What exactly does "busier" mean?**
-
-Matches per stadium?
-
-Matches per stadium per day?
-
-Average time between games?
-
-Something else?
-
-If the calculation gives **61%**, we show how.
-
-If it gives another number, we use the new result.
-
-> **The goal isn't to protect the old answer. The goal is to find the
-> right one.**
-
-------------------------------------------------------------------------
-
-## 🛠️ The Simple Analysis
-
-**1. Get the schedule**
-
-Find the matches, dates and stadiums.
-
-**2. Organise the data**
-
-Put everything into a clean list.
-
-**3. Count**
-
-How many matches does each stadium host?
-
-**4. Compare**
-
-Look at how the different plans spread the matches.
-
-**5. Show the results**
-
-Use simple charts or a dashboard.
-
-**6. Explain what we found**
-
-No need to make the result sound more dramatic than it is.
-
-The numbers are enough. 😂
-
-------------------------------------------------------------------------
-
-# 🧠 The Whole Project in One Line
-
-**Holiday plan → Football idea → Timing fail → Check the schedule →
-Compare stadium use → Find out what the numbers actually say**
-
-Sometimes a failed plan still gives you something useful.
-
-In this case:
-
-**a football analytics project.**
-
-------------------------------------------------------------------------
-
-# ⚽ The Simple Idea
-
-This project isn't about proving that one city or organiser made a bad
-decision.
-
-It's about asking a simple question:
-
-> ## **How does the number of matches, stadiums and days change how busy a football tournament becomes?**
-
-Then using data to answer it.
-
-And yes...
-
-I still missed the football by one day. 😂
-
-------------------------------------------------------------------------
-
 ## 🐍 Python Version
 
-Two simple Python files are included:
+Two simple Python files are included.
 
-**Bangkok idea:**\
+**My Bangkok idea:**\
 [View `model_bangkok.py`](./model_bangkok.py)
 
-**Actual schedule:**\
+**The Jeddah reality check:**\
 [View `model_jeddah.py`](./model_jeddah.py)
 
 ------------------------------------------------------------------------
 
 ## ⚠️ Disclaimer
 
-A personal football and data project. Any comparison or result should be
-based on the data used in the analysis and should not be treated as an
-official assessment of the tournament, stadiums or organisers.
+This is a personal football and data project based partly on a what-if
+scenario. It is not an official assessment of AFC, its venues or
+tournament decisions.
 
 ## ✍️ Credits
 
@@ -244,6 +250,6 @@ official assessment of the tournament, stadiums or organisers.
 
 ------------------------------------------------------------------------
 
-> **I missed the match.**
+> **The holiday survived. The football plan didn't.**
 
-***At least I got a data project out of it.*** 😂
+***At least the failed plan became a data project.*** 😂
