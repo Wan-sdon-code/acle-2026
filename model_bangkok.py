@@ -1,14 +1,16 @@
 # ⚽ ACLE 2026 — Bangkok What-If Model
-# Synthetic scenario for portfolio analysis
+
+# This is my own hypothetical idea.
+# It is NOT an official AFC schedule.
+
 # Idea & analysis: Wansaidon
 
 print("🇹🇭 BANGKOK WHAT-IF MODEL")
 print("=" * 40)
 
-# Change these numbers when you have your final schedule data.
-matches = 12
+matches = 7
 stadiums = 3
-days = 8
+days = 9
 
 matches_per_stadium = matches / stadiums
 matches_per_day = matches / days
@@ -24,8 +26,8 @@ print(f"Matches per day: {matches_per_day:.2f}")
 print(f"Busy score: {busy_score:.3f}")
 
 print("\n💡 WHAT DOES THE SCORE MEAN?")
-print("The score is only a simple comparison tool.")
-print("Higher score = more matches packed into fewer stadium-days.")
+print("Higher score = more matches packed into the available")
+print("stadiums and days.")
 print("It does NOT measure pitch damage.")
 
-print("\n🇹🇭 This is a what-if model, not an official ACLE schedule.")
+print("\n🇹🇭 Bangkok is my what-if model, not an official AFC plan.")
