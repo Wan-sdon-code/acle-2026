@@ -1,23 +1,31 @@
-# ⚽ Project: ACLE 2026 - Jeddah Model
-# Logic: 2 Stadiums + 1-Leg Blitz = 61% Stress Increase
+# ⚽ ACLE 2026 — Jeddah Reality Model
+# Replace the example values below with verified schedule data.
+# Idea & analysis: Wansaidon
 
-def calculate_bdi_reality():
-    stadiums = 2
-    games = 11
-    days = 13
-    
-    # BDI = Games per Stadium per Day
-    bdi_score = (games / stadiums) / days
-    
-    # Comparison to Bangkok (0.2593)
-    increase = ((bdi_score - 0.2593) / 0.2593) * 100
-    
-    print("--- JEDDAH PLAN (REALITY) ---")
-    print(f"Stadiums: {stadiums}")
-    print(f"Games: {games}")
-    print(f"Busy Score (BDI): {bdi_score:.4f}")
-    print(f"System Stress: {increase:.1f}% HIGHER than Bangkok.")
-    print("Result: Grass will be ruined. System Overload.")
+print("🇸🇦 JEDDAH REALITY MODEL")
+print("=" * 40)
 
-if __name__ == "__main__":
-    calculate_bdi_reality()
+# Change these numbers after checking the official schedule.
+matches = 12
+stadiums = 2
+days = 8
+
+matches_per_stadium = matches / stadiums
+matches_per_day = matches / days
+busy_score = matches / (stadiums * days)
+
+print(f"Matches: {matches}")
+print(f"Stadiums: {stadiums}")
+print(f"Days: {days}")
+
+print("\n📊 RESULTS")
+print(f"Matches per stadium: {matches_per_stadium:.2f}")
+print(f"Matches per day: {matches_per_day:.2f}")
+print(f"Busy score: {busy_score:.3f}")
+
+print("\n💡 WHAT DOES THE SCORE MEAN?")
+print("The score is only a simple comparison tool.")
+print("Higher score = more matches packed into fewer stadium-days.")
+print("It does NOT prove that a pitch will be damaged.")
+
+print("\n🇸🇦 Replace the example values with verified ACLE schedule data.")
