@@ -1,14 +1,18 @@
 # ⚽ ACLE 2026 — Jeddah Reality Model
-# Replace the example values below with verified schedule data.
+
+# Based on the AFC's revised 2026 schedule:
+# West Round of 16: April 13–14
+# ACLE Finals: April 16–25
+# Total: 11 matches across 2 Jeddah stadiums
+
 # Idea & analysis: Wansaidon
 
 print("🇸🇦 JEDDAH REALITY MODEL")
 print("=" * 40)
 
-# Change these numbers after checking the official schedule.
-matches = 12
+matches = 11
 stadiums = 2
-days = 8
+days = 13
 
 matches_per_stadium = matches / stadiums
 matches_per_day = matches / days
@@ -24,8 +28,8 @@ print(f"Matches per day: {matches_per_day:.2f}")
 print(f"Busy score: {busy_score:.3f}")
 
 print("\n💡 WHAT DOES THE SCORE MEAN?")
-print("The score is only a simple comparison tool.")
-print("Higher score = more matches packed into fewer stadium-days.")
+print("Higher score = more matches packed into the available")
+print("stadiums and days.")
 print("It does NOT prove that a pitch will be damaged.")
 
-print("\n🇸🇦 Replace the example values with verified ACLE schedule data.")
+print("\n🇸🇦 Jeddah uses the revised AFC schedule.")
