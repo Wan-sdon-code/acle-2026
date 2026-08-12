@@ -134,7 +134,7 @@ A busy stadium doesn't automatically mean the grass will be destroyed.
 
 ------------------------------------------------------------------------
 
-## 🧮 What About My Old "61% Busier" Result?
+## 🧮 What About My Old "63% Busier" Result?
 
 My first calculation suggested the Jeddah setup was around **63%
 busier**.
