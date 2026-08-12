@@ -155,7 +155,7 @@ A combination?
 
 Then I calculate it again.
 
-If the answer is **61%**, keep it.
+If the answer is **63%**, keep it.
 
 If it's something else, change it.
 
