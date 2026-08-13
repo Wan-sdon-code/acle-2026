@@ -1,7 +1,7 @@
-# ⚽ ACLE 2026 --- When a Football Plan Became a Data Project
+# ⚽ ACLE 2026 — Bangkok What-If vs Jeddah Reality
 
-> **I booked a Bangkok holiday, football in the region was disrupted,
-> and I thought: "What if ACLE has to change its plan?"**
+> **I booked a Bangkok holiday, ACLE got disrupted, and I thought:
+> "Eh... what if they move the matches to Bangkok?"** 😂
 
 That's how this project started.
 
@@ -9,247 +9,184 @@ Not from work.
 
 Not from school.
 
-I just wanted to watch some football. 😂
+I just wanted to watch football.
 
-------------------------------------------------------------------------
+---
 
-## ✈️ The Original Idea
+## ✈️ So What Happened?
 
-My main plan was simple:
+My plan was simple:
 
-**Bangkok holiday: April 26 -- May 1.**
+**Bangkok: April 26 — May 1.**
 
-Football was only supposed to be a bonus.
+Football was supposed to be a bonus.
 
-But with the war involving Iran disrupting football in the region,
-matches had been postponed and the calendar was getting tighter with the
-World Cup approaching.
+Then ACLE matches in the region got disrupted.
 
-That made me wonder:
+The West Round of 16 was originally **two legs**:
 
-> **Could ACLE change its format, dates or location?**
+**Home → Away → Best team goes through**
 
-Since I was already going to Bangkok, my brain naturally went:
+After the disruption, AFC changed the remaining West ties to
+**one-leg knockout matches** at centralised venues.
 
-> **"Eh... what if they move it there?"** 😂
+Basically:
 
-So I built a simple **Bangkok what-if model**.
+**One match. Win and continue. Lose and go home.**
 
-------------------------------------------------------------------------
+The four West Round of 16 matches were played in **Jeddah**.
 
-## 🇹🇭 My Guess vs Reality 🇸🇦
+And the ACLE Finals were already going to be there.
 
-My Bangkok idea was never an official prediction.
+My football brain immediately went:
 
-It was a question:
+> **"Wah, everything centralise ah? Then Bangkok can or not?"** 😂
 
-> **If the tournament had to change, what could another setup look
-> like?**
+---
 
-Then reality arrived.
+## 🇹🇭 Bangkok Can or Not?
 
-The remaining plan stayed centred in **Jeddah, Saudi Arabia**, with a
-different setup from what I had imagined.
+Bangkok was never an official plan.
 
-And then came the best part.
+It was just my own football **what-if**.
+
+What if the matches were played in Bangkok and spread across several
+stadiums?
+
+Would the fixture list be less packed?
+
+Would the stadiums get more time between matches?
+
+So I made a simple Bangkok model.
+
+Then I compared it with what actually happened.
+
+**🇹🇭 Bangkok = My what-if**
+
+**🇸🇦 Jeddah = Reality**
+
+---
+
+## 🇸🇦 Jeddah Got Quite Busy
+
+Jeddah hosted:
+
+**4 Round of 16 matches**
+
+then
+
+**4 Quarter-finals**
+
+**2 Semi-finals**
+
+**1 Final**
+
+That's:
+
+> ## **11 knockout matches across 2 stadiums**
+
+Football fans know what that means.
+
+**Fixture congestion.**
+
+A lot of football packed into a short period.
+
+So my question became:
+
+> **If Bangkok had more stadiums to share the matches, would the
+> fixture list be less packed?**
+
+That's what I wanted to check.
+
+---
+
+## 📊 Check First, Talk Later
+
+My first guess wasn't completely right.
+
+Once the real schedule came out, I checked the numbers again.
+
+Some numbers changed.
+
+No problem.
+
+That's part of analysing something properly.
+
+> **Guess → Check → Compare → Correct**
+
+If your first answer is wrong...
+
+**change lah.** 😂
+
+No point defending it like a bad VAR decision.
+
+---
+
+## 🤦 Best Part?
+
+After thinking so much about ACLE...
 
 **Final: April 25**
 
-**My arrival: April 26**
+**I arrive Bangkok: April 26**
 
-I missed it by **one day**. 😂
+One day late. 😂
 
-So the final score was:
+Final score:
 
-**Holiday:** ✅ Success\
-**Football bonus:** ❌ Failed\
-**Unexpected data project:** ✅ Unlocked
+**Holiday:** ✅  
+**Watch ACLE:** ❌  
+**Data project:** ✅
 
-------------------------------------------------------------------------
+---
 
-## 🤔 The New Question
+# 🧠 Full-Time Whistle
 
-Instead of deleting my failed idea, I decided to compare it with what
-actually happened.
+This project started with one football question:
 
-That created a much better question:
+> **"Bangkok can or not?"**
 
-> ## **How does the number of matches, stadiums and days affect how packed a tournament schedule becomes?**
+I made a guess.
 
-Now I had two things to compare:
+Then the real fixture list came out.
 
-**🇹🇭 Bangkok** --- my what-if model
+So I checked my idea against what actually happened.
 
-**🇸🇦 Jeddah** --- the actual plan
+That's the lesson:
 
-The goal isn't to prove that my idea was better.
+> ## **Don't force your prediction to win. Let the numbers decide the result.**
 
-**The goal is to see what the numbers say.**
-
-------------------------------------------------------------------------
-
-## 📊 What Can I Compare?
-
-**⚽ Matches**\
-How many games are played?
-
-**🏟️ Stadiums**\
-How many venues share those games?
-
-**📅 Days**\
-How much time is available?
-
-**⏱️ Time Between Games**\
-How long before the same stadium is used again?
-
-**📍 Matches Per Stadium**\
-Which venue carries the biggest load?
-
-These simple numbers can show whether one schedule is more packed than
-another.
-
-------------------------------------------------------------------------
-
-## 🔍 What Am I Trying to Find Out?
-
-The analysis can answer questions like:
-
-**Which stadium hosts the most matches?**
-
-**How evenly are the games shared?**
-
-**How much time is there between matches at the same stadium?**
-
-**Would using more stadiums spread the schedule better?**
-
-**Which setup is more tightly packed?**
-
-And if reliable pitch-condition data is available:
-
-> **Does a busier schedule appear to affect the pitch?**
-
-A busy stadium doesn't automatically mean the grass will be destroyed.
-
-**That needs evidence too.**
-
-------------------------------------------------------------------------
-
-## 🧮 What About My Old "63% Busier" Result?
-
-My first calculation suggested the Jeddah setup was around **63%
-busier**.
-
-But I'm not keeping that number just because I calculated it once.
-
-First I need to define:
-
-> **What does "busier" actually mean?**
-
-Matches per stadium?
-
-Matches per day?
-
-Time between games?
-
-A combination?
-
-Then I calculate it again.
-
-If the answer is **63%**, keep it.
-
-If it's something else, change it.
-
-If my first calculation was wrong...
-
-**also good.**
-
-Finding out you're wrong is still part of analysing something properly.
-
-------------------------------------------------------------------------
-
-## 🛠️ The Simple Process
-
-**Make a Guess**
-
-↓
-
-**Build the Bangkok Model**
-
-↓
-
-**Reality Changes**
-
-↓
-
-**Get the Jeddah Schedule**
-
-↓
-
-**Compare Both**
-
-↓
-
-**Check My Old Calculation**
-
-↓
-
-**See What the Numbers Actually Say**
-
-That's the project.
-
-------------------------------------------------------------------------
-
-# 🧠 What This Project Is Really About
-
-At first, this was about trying to catch a football match during my
-holiday.
-
-That failed spectacularly by **24 hours**. 😂
-
-But the mistake became more interesting than the original plan.
-
-I made an assumption.
-
-Then new information arrived.
-
-Instead of forcing reality to fit my assumption, I changed the question
-and checked the data.
-
-> ## **I guessed. Reality corrected me. Data helps explain why.**
-
-That's the real point of **ACLE 2026**.
-
-------------------------------------------------------------------------
+---
 
 ![ACLE](./acle3.png)
 
-------------------------------------------------------------------------
+---
 
 ## 🐍 Python Version
 
-Two simple Python files are included.
-
-**My Bangkok idea:**\
+**🇹🇭 Bangkok what-if:**  
 [View `model_bangkok.py`](./model_bangkok.py)
 
-**The Jeddah reality check:**\
+**🇸🇦 Jeddah reality:**  
 [View `model_jeddah.py`](./model_jeddah.py)
 
-------------------------------------------------------------------------
+---
 
 ## ⚠️ Disclaimer
 
-This is a personal football and data project based partly on a what-if
-scenario. It is not an official assessment of AFC, its venues or
-tournament decisions.
+The Jeddah side is based on the real ACLE schedule.
+
+Bangkok is my own what-if idea and was never an official AFC plan.
+
+---
 
 ## ✍️ Credits
 
-**Idea & analysis:** Wansaidon\
+**Idea & analysis:** Wansaidon  
 **Written with:** ChatGPT by OpenAI
 
-------------------------------------------------------------------------
+---
 
-> **The holiday survived. The football plan didn't.**
+> **The holiday survived. The football plan kena red card.** 😂
 
-***At least the failed plan became a data project.*** 😂
+***At least it became a data project.***
