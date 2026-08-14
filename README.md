@@ -158,7 +158,7 @@ That's the lesson:
 
 ---
 
-![ACLE](./acle3.png)
+![ACLE](./acle26.png)
 
 ---
 
