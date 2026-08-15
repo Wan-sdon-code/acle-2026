@@ -1,28 +1,41 @@
-# ⚽ ACLE 2026 — Jeddah Reality
+# ACLE 2026 — Jeddah Reality Model
+# Idea & analysis: Wansaidon
 
-print("🇸🇦 JEDDAH REALITY")
-print("=" * 35)
+import pandas as pd
+import matplotlib.pyplot as plt
 
-round_of_16 = 4
-quarter_finals = 4
-semi_finals = 2
-final = 1
-
-matches = round_of_16 + quarter_finals + semi_finals + final
+# Real ACLE knockout setup used in this project
+matches = 11
 stadiums = 2
 
-print(f"Round of 16: {round_of_16}")
-print(f"Quarter-finals: {quarter_finals}")
-print(f"Semi-finals: {semi_finals}")
-print(f"Final: {final}")
+# Create a simple dataframe
+df = pd.DataFrame({
+    'City': ['Jeddah'],
+    'Matches': [matches],
+    'Stadiums': [stadiums]
+})
 
-print(f"\nTotal knockout matches: {matches}")
-print(f"Stadiums used: {stadiums}")
+# Calculate how many matches each stadium hosted on average
+df['Matches_per_Stadium'] = df['Matches'] / df['Stadiums']
 
-matches_per_stadium = matches / stadiums
+# Display the result
+print(df)
 
-print(f"Average matches per stadium: {matches_per_stadium:.1f}")
+# Plot the result
+ax = df.plot(
+    x='City',
+    y='Matches_per_Stadium',
+    kind='bar',
+    rot=0,
+    legend=False,
+    xlabel='',
+    ylabel='Matches per Stadium'
+)
 
-print("\n⚽ SIMPLE TAKEAWAY")
-print("Jeddah hosted a lot of knockout football")
-print("across only two stadiums.")
+ax.set_title('ACLE 2026 — Jeddah Reality')
+ax.bar_label(ax.containers[0], fmt='%.2f')
+
+# Remove extra chart borders
+ax.spines[['top', 'right']].set_visible(False)
+
+plt.show()
