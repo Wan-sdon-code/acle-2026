@@ -55,7 +55,7 @@ stadiums?
 
 Would the fixture list be less packed?
 
-Would each stadium have fewer matches to handle?
+Would the stadiums get more time between matches?
 
 So I made a simple Bangkok model.
 
@@ -87,11 +87,14 @@ That's:
 
 Football fans know what that means.
 
-A lot of football packed into a small number of stadiums.
+**Fixture congestion.**
+
+A lot of football packed into a short period.
 
 So my question became:
 
-> **If Bangkok had more stadiums to share the matches, would each stadium handle fewer matches?**
+> **If Bangkok had more stadiums to share the matches, would the
+> fixture list be less packed?**
 
 That's what I wanted to check.
 
@@ -119,32 +122,6 @@ No point defending it like a bad VAR decision.
 
 ---
 
-## 🐍 What I Analysed With Python
-
-I used **Pandas** and **Matplotlib**, based on what I learned in school.
-
-The model compares:
-
-* Number of matches
-* Number of stadiums
-* Average matches per stadium
-
-The calculation is simple:
-
-**Matches per stadium = Matches ÷ Stadiums**
-
-For my Bangkok what-if:
-
-**11 ÷ 3 = 3.67 matches per stadium**
-
-For Jeddah:
-
-**11 ÷ 2 = 5.50 matches per stadium**
-
-So in my simple model, Bangkok's 3-stadium setup spreads the same number of matches across more stadiums.
-
----
-
 ## 🤦 Best Part?
 
 After thinking so much about ACLE...
@@ -157,8 +134,8 @@ One day late. 😂
 
 Final score:
 
-**Holiday:** ✅
-**Watch ACLE:** ❌
+**Holiday:** ✅  
+**Watch ACLE:** ❌  
 **Data project:** ✅
 
 ---
@@ -185,25 +162,13 @@ That's the lesson:
 
 ---
 
-## 🐍 Python Models
+## 🐍 Python Version
 
-### 🇹🇭 Bangkok What-If Model
-
-11 matches across 3 stadiums.
-
+**🇹🇭 Bangkok what-if:**  
 [View `model_bangkok.py`](./model_bangkok.py)
 
-### 🇸🇦 Jeddah Reality Model
-
-11 matches across 2 stadiums.
-
+**🇸🇦 Jeddah reality:**  
 [View `model_jeddah.py`](./model_jeddah.py)
-
-### 📊 Full Comparison
-
-Compares Bangkok and Jeddah together and creates a simple bar chart.
-
-[View `acle_comparison.py`](./acle_comparison.py)
 
 ---
 
@@ -213,15 +178,11 @@ The Jeddah side is based on the real ACLE schedule.
 
 Bangkok is my own what-if idea and was never an official AFC plan.
 
-The model only compares the number of matches per stadium.
-
-It does not calculate exact recovery time, travel time, pitch condition, or match scheduling.
-
 ---
 
 ## ✍️ Credits
 
-**Idea & analysis:** Wansaidon
+**Idea & analysis:** Wansaidon  
 **Written with:** ChatGPT by OpenAI
 
 ---
