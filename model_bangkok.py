@@ -1,23 +1,41 @@
-# ⚽ ACLE 2026 — Bangkok What-If
+# ACLE 2026 — Bangkok What-If Model
+# Idea & analysis: Wansaidon
 
-print("🇹🇭 BANGKOK WHAT-IF")
-print("=" * 35)
+import pandas as pd
+import matplotlib.pyplot as plt
 
-# Same 11 matches as the Jeddah comparison,
-# but imagine using 3 stadiums in Bangkok.
-
+# My what-if assumptions
 matches = 11
 stadiums = 3
 
-matches_per_stadium = matches / stadiums
+# Create a simple dataframe
+df = pd.DataFrame({
+    'City': ['Bangkok'],
+    'Matches': [matches],
+    'Stadiums': [stadiums]
+})
 
-print(f"Matches: {matches}")
-print(f"Stadiums: {stadiums}")
-print(f"Average matches per stadium: {matches_per_stadium:.1f}")
+# Calculate how many matches each stadium would host on average
+df['Matches_per_Stadium'] = df['Matches'] / df['Stadiums']
 
-print("\n⚽ SIMPLE TAKEAWAY")
-print("With more stadiums available, the matches")
-print("could be spread across more venues.")
+# Display the result
+print(df)
 
-print("\n🇹🇭 This is my what-if idea,")
-print("not an official ACLE plan.")
+# Plot the result
+ax = df.plot(
+    x='City',
+    y='Matches_per_Stadium',
+    kind='bar',
+    rot=0,
+    legend=False,
+    xlabel='',
+    ylabel='Matches per Stadium'
+)
+
+ax.set_title('ACLE 2026 — Bangkok What-If')
+ax.bar_label(ax.containers[0], fmt='%.2f')
+
+# Remove extra chart borders
+ax.spines[['top', 'right']].set_visible(False)
+
+plt.show()
